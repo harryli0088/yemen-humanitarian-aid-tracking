@@ -2,7 +2,9 @@
 This is a live tracking demo of a 3-tiered aid distribution diversion detection system. The system combines:
 
 1 - GPS trackers on trucks
+
 2 - RFID transmitters on aid palettes and RFID readers at checkpoints
+
 3 - QR codes on individual bags
 
 This system is designed to detect diversion in food aid distribution and give people a place to start investigating when aid goes missing.
