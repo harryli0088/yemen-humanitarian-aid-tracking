@@ -13,7 +13,9 @@ This is a live tracking demo of a 3-tiered aid distribution diversion detection 
 
 3 - QR codes on individual bags
 
-This system is designed to detect diversion in food aid distribution and give people a place to start investigating when aid goes missing.
+to detect diversion in food aid distribution and give people a place to start investigating when aid goes missing.
+
+In this demo, blue trucks represent normal behavior, while magenta trucks represent suspicious behavior that requires investigation. The magenta truck going north has probably diverted food, given that the percentage of RFID tags scanned drops significantly from the first to second checkpoint. The magenta truck going northeast stops suspiciously in the middle of its journey, but most of the RFID tags are scanned at the first and second checkpoint. Perhaps this truck was detained for some reason, and we can avoid that route in the future. Without this system, it would be very difficult to detect diversion or adapt to a changing environment.
 
 This demo was built off this d3.js map example: http://bl.ocks.org/asifsalam/681a06e4a37b7b1e3cf6
 
