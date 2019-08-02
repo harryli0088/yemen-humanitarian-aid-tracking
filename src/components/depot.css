@@ -1,0 +1,8 @@
+.depot rect {
+  fill: gray;
+  opacity: 0.8;
+}
+
+.depot text {
+  fill: white;
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding: 1em;
+}
+
+#root {
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 2px 2px 3px 3px #ccc;
+}
+
+#main svg {
+  background-color: #d6e6e4;
+}
+
+
+
+
+path {
+  stroke: white;
+  stroke-width: 0.5px;
+  fill: #bc7d7d;
+}
+
+path:hover {
+  fill: #999;
+}
+
+.country {
+  fill: #bbb;
+  stroke: #ccc;
+}
+
+.YEM {
+  fill: #bc7d7d;
+  stroke: #ededed;
+}
+
+.YEM:hover {
+  fill: orange;
+}
+
+
+.depot {
+  cursor: pointer;
+}
+
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  background: #ccc;
+  cursor: pointer;
+}
+button:active {
+  background: #bbb;
+}
