@@ -1,4 +1,10 @@
 # Yemen Humanitarian Aid
+
+![Demo](/yemen.gif)
+
+GIF created using https://ezgif.com/video-to-gif
+
+
 This is a live tracking demo of a 3-tiered aid distribution diversion detection system. The system combines:
 
 1 - GPS trackers on trucks
